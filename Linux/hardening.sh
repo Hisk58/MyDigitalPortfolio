@@ -27,8 +27,8 @@ then
 	systemctl restart apache2.service
 fi
 
-read -p "Do you also want to install Git? [y/n]" answer
-if [ $answer = y ]
+read -p "Do you also want to install Git? [y/n]" answer2
+if [ $answer2 = y ]
 then
 	echo "Installing Git & cloning your repository..."
 	apt install -y git-all
